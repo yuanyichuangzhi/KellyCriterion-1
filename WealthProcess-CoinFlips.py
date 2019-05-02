@@ -24,7 +24,7 @@ for j in range(1, paths):
 	#print(Wealth)
 	print('final wealth is ', Wealth[trials-1])
 	matplotlib.pyplot.plot(Wealth) #plotting wealth process on arbitrary scale
-	geom_Avg = [(1/n)*math.log(Wealth[n]) for n in range(1,trials)] #sequence of running geometric averages
+	geom_Avg = [(1/k)*math.log(Wealth[k]) for k in range(1,trials)] #sequence of running geometric averages
 	print('geometric average is ', geom_Avg[trials-2])
 
 matplotlib.pyplot.show()
