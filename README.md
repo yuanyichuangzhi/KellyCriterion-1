@@ -1,0 +1,2 @@
+# KellyCriterion
+WealthProcesses, KellyCriterion, DrawdownConstraints
