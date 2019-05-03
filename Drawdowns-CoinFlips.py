@@ -32,11 +32,14 @@ for j in range(0, len(f[0:5])):
     #wealth process
     #print(Wealth_f)
     matplotlib.pyplot.figure()
+    #matplotlib.pyplot.subplot(2,1,1)
     matplotlib.pyplot.plot(Wealth_f)
+    matplotlib.pyplot.title('Wealth/PortfolioValue for f = ' + str(f[j]))
     
     #relative drawdown process
     #print(rel_drawdown_f)
     matplotlib.pyplot.figure()
+    #matplotlib.pyplot.subplot(2,1,2)
     matplotlib.pyplot.ylim((-1.0,1.0))
     matplotlib.pyplot.plot(rel_drawdown_f)
-    
+    matplotlib.pyplot.title('RelativeDrawdown of Portfolio for Exposure f = ' + str(f[j]))
