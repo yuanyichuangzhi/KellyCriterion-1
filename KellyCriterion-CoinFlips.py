@@ -27,5 +27,7 @@ for j in range(0, len(f)):
     print('f is ', f[j], ' geometric average is ', geomAvg_f[trials-2])
 
 #matplotlib.pyplot.ylim((-.5,.5))
-matplotlib.pyplot.plot(f, geomAvgfor_f)    
+matplotlib.pyplot.plot(f, geomAvgfor_f)   
+matplotlib.pyplot.title('LongTerm Growth Rate') 
+matplotlib.pyplot.xlabel('Exposure/Fraction f')
 matplotlib.pyplot.show()
